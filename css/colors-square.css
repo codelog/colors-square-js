@@ -1,0 +1,35 @@
+html, body {
+	font-family: sans-serif;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	margin: 0;
+	padding: 0;
+}
+.box {
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+}
+#colorWp {
+	align-items: center;
+	background-color: #999;
+	display: inline-flex;
+	height: 96vh;
+	justify-content: center;
+	width: 98vw;
+}
+#colorHex {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: .07rem;
+	
+}
